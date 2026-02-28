@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BP pop - サポート</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, 'Hiragino Sans', sans-serif;
+    background: #F4F4F5;
+    color: #18181B;
+    line-height: 1.8;
+  }
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #C4607F, #D07878);
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon svg { width: 48px; height: 48px; }
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .subtitle {
+    color: #71717A;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  .card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+  .card h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #C4607F;
+  }
+  .card p {
+    font-size: 14px;
+    color: #3F3F46;
+    margin-bottom: 8px;
+  }
+  .card ul {
+    padding-left: 20px;
+    font-size: 14px;
+    color: #3F3F46;
+  }
+  .card li { margin-bottom: 6px; }
+  .contact {
+    text-align: center;
+    margin-top: 32px;
+    padding: 24px;
+  }
+  .contact a {
+    color: #C4607F;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #A1A1AA;
+    font-size: 12px;
+  }
+  .footer a { color: #71717A; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="icon">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <polyline points="20,110 50,110 65,110 75,60 85,140 95,90 105,110 140,110 170,110"
+          fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <h1>BP pop</h1>
+    <p class="subtitle">声で記録する血圧管理</p>
+  </div>
+
+  <div class="card">
+    <h2>アプリについて</h2>
+    <p>BP pop は、音声入力で血圧を記録できるシンプルな健康管理アプリです。血圧計の数値を声で読み上げるだけで、自動的に記録が完了します。</p>
+  </div>
+
+  <div class="card">
+    <h2>使い方</h2>
+    <p><strong>1. 記録する</strong></p>
+    <p>マイクボタンをタップして「上130、下85、脈拍72」と話してください。数値を自動認識して記録します。手入力も可能です。</p>
+    <br>
+    <p><strong>2. 確認する</strong></p>
+    <p>一覧画面で過去の記録を確認できます。グラフ画面で推移を、統計画面で平均値を確認できます。</p>
+    <br>
+    <p><strong>3. 医師に見せる</strong></p>
+    <p>統計画面は大きな文字で表示されるので、診察時にスマホをそのまま見せられます。</p>
+  </div>
+
+  <div class="card">
+    <h2>音声入力の話し方</h2>
+    <p>以下のような話し方に対応しています：</p>
+    <ul>
+      <li>「上130、下85、脈拍72」</li>
+      <li>「130の85、脈72」</li>
+      <li>「130 85 72」</li>
+      <li>「上が130で下が85です」</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>データについて</h2>
+    <p>すべてのデータはお使いのデバイス内にのみ保存されます。外部サーバーへの送信は一切行いません。</p>
+    <p>CSVインポート・エクスポートに対応しているので、データのバックアップや他のアプリからの移行も可能です。</p>
+  </div>
+
+  <div class="card">
+    <h2>よくある質問</h2>
+    <p><strong>Q: 音声が正しく認識されません</strong></p>
+    <p>A: 静かな環境でお試しください。また、確認画面で数値をタップして手動で修正することもできます。</p>
+    <br>
+    <p><strong>Q: データを別の端末に移せますか？</strong></p>
+    <p>A: 設定画面からCSVエクスポートを行い、新しい端末でインポートすることで移行できます。</p>
+    <br>
+    <p><strong>Q: 1日に複数回記録できますか？</strong></p>
+    <p>A: はい、朝・昼・夜など1日に何度でも記録できます。</p>
+  </div>
+
+  <div class="card">
+    <h2>免責事項</h2>
+    <p>本アプリは医療機器ではありません。診断や治療の目的には使用しないでください。健康管理の参考としてご利用ください。血圧について心配がある場合は、医師にご相談ください。</p>
+  </div>
+
+  <div class="contact">
+    <p>お問い合わせ</p>
+    <p><a href="mailto:kentatorimoto@gmail.com">kentatorimoto@gmail.com</a></p>
+  </div>
+
+  <div class="footer">
+    <p>© 2026 Kenta</p>
+    <p style="margin-top: 8px;"><a href="privacy.html">プライバシーポリシー</a></p>
+  </div>
+</div>
+</body>
+</html>
